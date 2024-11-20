@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknologi</title>
+    <style>
+        /* Reset margin dan padding untuk seluruh elemen */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body dan font dasar */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #DEB887;
+        }
+
+        /* Header */
+        header {
+            background-color: #5F9EA0;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Main */
+        main {
+            display: flex;
+            flex: 1;
+            padding: 20px;
+        }
+
+        /* Artikel konten utama */
+        article {
+            flex: 2;
+            padding-right: 20px;
+        }
+
+        /* Aside untuk foto dan informasi tambahan */
+        aside {
+            flex: 1;
+            background-color: #5F9EA0;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Styling untuk daftar sosial media */
+        .social-media a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+
+        /* Gambar profil */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        /* Styling untuk informasi pribadi */
+        .profile-info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        /* Responsif untuk tampilan lebih kecil */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+            aside {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teknologi</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Pentingnya Teknologi</h2>
+            <p>Kenapa teknologi penting?</p>
+            <p>
+                Memudahkan komunikasi: Dengan teknologi, kita bisa dengan mudah menghubungi teman dan keluarga di mana saja dan kapan saja, bahkan di belahan dunia yang berbeda.
+            </p>
+            <p>
+                Akses informasi: Ingin tahu tentang sesuatu? Cukup ketik di mesin pencari, dan seketika itu juga kamu akan mendapatkan banyak informasi.
+            </p>
+            <p>
+                Belajar dan mengembangkan diri: Ada banyak sekali aplikasi dan website yang bisa kita gunakan untuk belajar hal-hal baru, seperti bahasa asing, coding, atau bahkan bermain musik.
+            </p>
+        </article>
+
+        <aside>
+            <img src="img/bren.jpg" alt="Foto Profil Brenda Estella Silalahi">
+            <ul class="profile-info">
+                <li>Nama: Brenda Estella Silalahi</li>
+                <li>Usia: 16 tahun</li>
+                <li>Sekolah: SMKN 9 Medan</li>
+            </ul>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=61557594421697" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.instagram.com/brstl._?igsh=MTRudHFoeHVqem56dQ==" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://x.com/brstl_55?t=G4fPVz8akr690R1Z4zzhOg&s=09" target="_blank" rel="noopener noreferrer">Twitter</a>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Brenda Estella Silalahi. Semua hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
